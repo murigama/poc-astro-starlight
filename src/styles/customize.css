@@ -1,0 +1,95 @@
+:root {
+  /* Colors (dark mode) - Base: #1034f2 */
+  --sl-color-white: hsl(0, 0%, 100%);
+  --sl-color-gray-1: hsl(230, 20%, 94%);
+  --sl-color-gray-2: hsl(230, 6%, 77%);
+  --sl-color-gray-3: hsl(230, 6%, 56%);
+  --sl-color-gray-4: hsl(230, 7%, 36%);
+  --sl-color-gray-5: hsl(230, 10%, 23%);
+  --sl-color-gray-6: hsl(230, 14%, 16%);
+  --sl-color-black: hsl(230, 10%, 10%);
+
+  --sl-hue-orange: 30;
+  --sl-color-orange-low: hsl(var(--sl-hue-orange), 39%, 22%);
+  --sl-color-orange: hsl(var(--sl-hue-orange), 82%, 63%);
+  --sl-color-orange-high: hsl(var(--sl-hue-orange), 82%, 87%);
+  --sl-hue-green: 150;
+  --sl-color-green-low: hsl(var(--sl-hue-green), 39%, 22%);
+  --sl-color-green: hsl(var(--sl-hue-green), 82%, 63%);
+  --sl-color-green-high: hsl(var(--sl-hue-green), 82%, 80%);
+  --sl-hue-blue: 230;
+  --sl-color-blue-low: hsl(var(--sl-hue-blue), 90%, 20%);
+  --sl-color-blue: hsl(var(--sl-hue-blue), 90%, 51%);
+  --sl-color-blue-high: hsl(var(--sl-hue-blue), 90%, 87%);
+  --sl-hue-purple: 260;
+  --sl-color-purple-low: hsl(var(--sl-hue-purple), 39%, 22%);
+  --sl-color-purple: hsl(var(--sl-hue-purple), 82%, 63%);
+  --sl-color-purple-high: hsl(var(--sl-hue-purple), 82%, 89%);
+  --sl-hue-red: 0;
+  --sl-color-red-low: hsl(var(--sl-hue-red), 39%, 22%);
+  --sl-color-red: hsl(var(--sl-hue-red), 82%, 63%);
+  --sl-color-red-high: hsl(var(--sl-hue-red), 82%, 87%);
+
+  --sl-color-accent-low: hsl(230, 90%, 20%);
+  --sl-color-accent: hsl(230, 90%, 51%);
+  --sl-color-accent-high: hsl(230, 90%, 85%);
+
+  --sl-color-text: var(--sl-color-gray-2);
+  --sl-color-text-accent: var(--sl-color-accent-high);
+  --sl-color-text-invert: var(--sl-color-accent-low);
+  --sl-color-bg: var(--sl-color-black);
+  --sl-color-bg-nav: var(--sl-color-gray-6);
+  --sl-color-bg-sidebar: var(--sl-color-gray-6);
+  --sl-color-bg-inline-code: var(--sl-color-gray-5);
+  --sl-color-bg-accent: var(--sl-color-accent-high);
+  --sl-color-hairline-light: var(--sl-color-gray-5);
+  --sl-color-hairline: var(--sl-color-gray-6);
+  --sl-color-hairline-shade: var(--sl-color-black);
+
+  --sl-color-backdrop-overlay: hsla(230, 13%, 10%, 0.66);
+}
+
+:root[data-theme='light'],
+[data-theme='light'] {
+  /* Colors (light mode) - Base: #1034f2 */
+  --sl-color-white: hsl(230, 10%, 10%);
+  --sl-color-gray-1: hsl(230, 14%, 16%);
+  --sl-color-gray-2: hsl(230, 10%, 23%);
+  --sl-color-gray-3: hsl(230, 7%, 36%);
+  --sl-color-gray-4: hsl(230, 6%, 56%);
+  --sl-color-gray-5: hsl(230, 6%, 77%);
+  --sl-color-gray-6: hsl(230, 20%, 94%);
+  --sl-color-gray-7: hsl(230, 19%, 97%);
+  --sl-color-black: hsl(0, 0%, 100%);
+
+  --sl-color-orange-high: hsl(var(--sl-hue-orange), 80%, 25%);
+  --sl-color-orange: hsl(var(--sl-hue-orange), 90%, 60%);
+  --sl-color-orange-low: hsl(var(--sl-hue-orange), 90%, 88%);
+  --sl-color-green-high: hsl(var(--sl-hue-green), 80%, 22%);
+  --sl-color-green: hsl(var(--sl-hue-green), 90%, 46%);
+  --sl-color-green-low: hsl(var(--sl-hue-green), 85%, 90%);
+  --sl-color-blue-high: hsl(var(--sl-hue-blue), 80%, 30%);
+  --sl-color-blue: hsl(var(--sl-hue-blue), 90%, 51%);
+  --sl-color-blue-low: hsl(var(--sl-hue-blue), 88%, 90%);
+  --sl-color-purple-high: hsl(var(--sl-hue-purple), 90%, 30%);
+  --sl-color-purple: hsl(var(--sl-hue-purple), 90%, 60%);
+  --sl-color-purple-low: hsl(var(--sl-hue-purple), 80%, 90%);
+  --sl-color-red-high: hsl(var(--sl-hue-red), 80%, 30%);
+  --sl-color-red: hsl(var(--sl-hue-red), 90%, 60%);
+  --sl-color-red-low: hsl(var(--sl-hue-red), 80%, 90%);
+
+  --sl-color-accent-high: hsl(230, 80%, 30%);
+  --sl-color-accent: hsl(230, 90%, 51%);
+  --sl-color-accent-low: hsl(230, 88%, 90%);
+
+  --sl-color-text-accent: var(--sl-color-accent);
+  --sl-color-text-invert: var(--sl-color-black);
+  --sl-color-bg-nav: var(--sl-color-gray-7);
+  --sl-color-bg-sidebar: var(--sl-color-bg);
+  --sl-color-bg-inline-code: var(--sl-color-gray-6);
+  --sl-color-bg-accent: var(--sl-color-accent);
+  --sl-color-hairline-light: var(--sl-color-gray-6);
+  --sl-color-hairline-shade: var(--sl-color-gray-6);
+
+  --sl-color-backdrop-overlay: hsla(230, 9%, 36%, 0.66);
+}
